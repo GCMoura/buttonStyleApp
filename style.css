@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    background: #d3cce3;
+    text-align: center;
+}
+
+.title {
+    color: font-weight: bold;
+    font-size: 38px;
+    padding: 15px 0;
+}
+
+.header ul {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 20px;
+    list-style: none;
+}
+
+.header li {
+    font-size: 20px;
+}
+
+.header li input {
+    font-size: 20px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.header li:nth-child(4) input,
+.header li:nth-child(5) input {
+    width: 85px;
+}
+
+
+/*CONTAINER*/
+
+.container {
+    height: 100vh;
+    background: #e9e4f0;
+}
+
+
+/* button APLICAR*/
+
+.app {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.button-app,
+.getCSS {
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #555555;
+    margin: 20px 10px;
+    transition-duration: 0.5s;
+}
+
+.button-app:hover,
+.getCSS:hover {
+    background: #555555;
+    color: #ffffff;
+}
+
+
+/*EXAMPLE BUTTON*/
+
+.button-div {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.button,
+.cssCode {
+    width: auto;
+    height: auto;
+    margin: 50px 50px;
+}
+
+.cssCode {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

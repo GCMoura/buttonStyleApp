@@ -23,7 +23,7 @@
 .header ul {
     display: grid;
     grid-auto-flow: column;
-    padding: 20px;
+    padding: 10px;
     list-style: none;
 }
 
@@ -34,13 +34,48 @@
 .header li input {
     font-size: 20px;
     height: 30px;
-    width: 60px;
+    width: 50px;
     border-radius: 5px;
 }
 
-.header li:nth-child(4) input,
-.header li:nth-child(5) input {
-    width: 85px;
+.first li:nth-child(4) input,
+.first li:nth-child(5) input {
+    width: 90px;
+    margin-left: -80px;
+}
+
+.second li:nth-child(1) input {
+    width: 90px;
+}
+
+.second li:nth-child(3) input {
+    margin-left: -150px;
+}
+
+.second li:nth-child(4) input {
+    margin-left: -230px;
+}
+
+.second li:nth-child(5) input {
+    margin-left: -250px;
+}
+
+.second li:nth-child(6) input {
+    width: 150px;
+    margin-left: -190px;
+}
+
+.third li:nth-child(1) input {
+    width: 150px;
+}
+
+.third li:nth-child(5) input {
+    width: 120px;
+}
+
+.radioBtn {
+    height: 5px;
+    font-size: 12px;
 }
 
 
@@ -87,11 +122,16 @@
     justify-content: center;
 }
 
-.button,
+.button {
+    width: auto;
+    height: auto;
+    margin: 10px 50px;
+}
+
 .cssCode {
     width: auto;
     height: auto;
-    margin: 50px 50px;
+    margin: 10px 50px;
 }
 
 .cssCode {

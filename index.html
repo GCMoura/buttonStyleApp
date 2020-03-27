@@ -12,22 +12,40 @@
 <body>
     <header class="header">
         <h1 class="title">Button Style</h1>
-        <ul>
-            <li>Heigth: <input type="text" maxlength="5" class="height"> px </li>
-            <li>Width: <input type="text" maxlength="5" class="width"> px </li>
-            <li>Border-Radius: <input type="text" maxlength="5" class="borderRadius"> px </li>
-            <li>Background-Color: <input type="text" maxlength="7" class="backgroundColor"> </li>
-            <li>Font-Color: <input type="text" maxlength="7" class="fontColor"> </li>
+        <ul class="first">
+            <li>Heigth: <input type="text" maxlength="5" class="height" onblur="styleApplication()"> px </li>
+            <li>Width: <input type="text" maxlength="5" class="width" onblur="styleApplication()"> px </li>
+            <li>Border: <input type="text " maxlength="5" class="border1"> px</li>
+            <li><input type="text" class="border2" maxlength="6"></li>
+            <li><input type="text" class="border3" maxlength="7" onblur="styleApplication()"></li>
+            <li>Border-Radius: <input type="text" maxlength="5" class="borderRadius" onblur="styleApplication()"> px </li>
+        </ul>
+        <ul class="second">
+            <li>Background-Color: <input type="text" maxlength="7" class="backgroundColor" onblur="styleApplication()"> </li>
+            <li>Box-Shadow: <input type="text " maxlength="3 " class="boxShadow1"> px </li>
+            <li><input type="text " maxlength="3 " class="boxShadow2"> px</li>
+            <li><input type="text " maxlength="3 " class="boxShadow3"> px</li>
+            <li><input type="text " maxlength="3 " class="boxShadow4"> px, &nbsp; color</li>
+            <li><input type="text " maxlength="10 " class="boxShadow5" onblur="styleApplication()"></li>
+
+        </ul>
+        <ul class="third">
+            <li>Text-Decoration: <input type="text" class="textDecoration" onblur="styleApplication()"> </li>
+            <li> <input type="checkbox" name="radio" class="radioBtn" value="italic" onblur="styleApplication()"> <i>Italic</i> </li>
+            <li> <input type="checkbox" name="radio" class="radioBtn" value="bold" onblur="styleApplication()"><strong>Bold</strong> </li>
+            <li>Font size: <input type=" text " maxlength="3 " class="fontSize" onblur="styleApplication()"> px </li>
+            <li>Font-Color: <input type="text" maxlength="7" class="fontColor" onblur="styleApplication()"> </li>
+
         </ul>
     </header>
-    <div class="container">
-        <div class="app">
-            <button class="button-app">Aplicar</button>
-            <button class="getCSS">Get CSS</button>
+    <div class="container ">
+        <div class="app ">
+            <button class="button-app ">Apply</button>
+            <button class="getCSS ">Get CSS</button>
         </div>
-        <div class="button-div">
-            <button class="button">Exemplo</button>
-            <span class="cssCode"></span>
+        <div class="button-div ">
+            <button class="button ">Exemplo</button>
+            <span class="cssCode "></span>
         </div>
     </div>
 </body>
